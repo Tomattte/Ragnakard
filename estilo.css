@@ -1,0 +1,206 @@
+.Cabecalho {
+    margin-top: 50px;
+    margin-left: 2px;
+    padding: 0 62px 10px;
+    border-radius: 25px;
+    background-color: rgb(175, 49, 49);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+.fade {
+    height: 150px;
+    width: 468px;
+    background-color: rgb(175, 49, 49);
+    background-image: linear-gradient(rgb(175, 49, 49), #1f7f9c);
+    display: inline-block;
+    margin: -25px;
+    position: absolute;
+    margin-left: -233px;
+    padding-bottom: 30px;
+}
+.menu {
+    border-radius: 25px;
+    width: 468px;
+    display: inline-block;
+    margin-left: 9px;
+    padding: 5vh 0 4vh 0;
+    background-color: #1f7f9c;
+}
+.bod1 {
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.menu2 {
+    padding: 60px 2px 0;
+    margin: 0;
+    position: relative;
+}
+.but {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 5px rgb(175, 49, 49);
+    background-color: #d14b4b;
+    color: white;
+    border: none;
+    transition: all 0.4s;
+    font-weight: bold;
+}
+.but:hover {
+    transform: scale(1.2);
+}
+.narebo {
+    width: 490px;
+    /*margin-left: -1000px;*/
+    position: fixed;
+    margin-left: -1000px;
+    margin-top: -670px;
+}   
+.mokozausko {
+    width: 600px;
+    position: fixed;
+    margin-top: -490px;
+    margin-left: 30px;
+}
+.divn {
+    position: relative;
+    display: inline-block;
+}
+.divm {
+    position: relative;
+    display: inline-block;
+}
+.divn button {
+    position: absolute;
+    top: -445px;
+    right: 735px;
+    cursor: pointer;
+    background: transparent;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    border: none;
+    font-size: 0;
+}
+.divm button {
+    position: absolute;
+    bottom: 145px;
+    left: 320px;
+    cursor: pointer;
+    background: transparent;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    border: none;
+    font-size: 0;
+}
+.logo {
+    width: 80px;
+    transition: all 0.4s;
+}
+.logb {
+    width: 80px;
+    margin: 50px 50px 0;
+    height: 80px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.logb :hover {
+    transform: scale(1.2);
+}
+/*CSS da RAGNADEX*/
+.cab {
+    background-color: rgb(175, 49, 49);
+}
+.home {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.menu3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    background-color: #1f7f9c;
+    display: inline-block;
+    width: 400px;
+    height: fit-content;
+    border-radius: 25px;
+}
+.menu3 button {
+    border-radius: 25px;
+    margin: 30px 80px;
+    font-size: 40px;    
+    padding: 10px 30px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s;
+}
+.menu3 button:hover {
+    transform: scale(1.2);
+}
+.ma {
+    background-color: #769e70;
+    border-color: #98ba93;
+}
+.fe {
+    background-color: #c29d46;
+    border-color: #deb964;
+}
+.mo {
+    background-color: #d14b4b;
+    border-color: #de5d5d;
+}
+.hu{
+    background-color: #5d9ede;
+    border-color: #76bee8;
+}
+.dex{
+    display: inline-block;
+    margin: 20px 60px;
+    width: fit-content;
+}
+.dex img:hover{
+    border-color:  hsl(0, 0%, 0%)
+}
+.dex img{
+    border: 5px solid;
+    border-color: transparent;
+    width: 205px;
+}
+.menu4 {
+    margin-left: 400px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f7f9c;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+}
+.menu4 button {
+    border-radius: 25px;
+    margin: 30px 80px;
+    font-size: 40px;    
+    padding: 10px 30px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s;
+}
+.menu4 button:hover {
+    transform: scale(1.2);
+}

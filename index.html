@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ragnakard.com</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+<script>
+    function playAudio() {
+        let x = document.getElementById("Nareba");
+        x.play();
+    }
+    function playAudio2() {
+        let y = document.getElementById("Mokozauski");
+        y.play();
+    }
+</script>
+<audio id="Nareba">
+    <source src="Cheiro.mp3">
+</audio>
+<audio id="Mokozauski">
+    <source src="Mbarulho.m4a">
+</audio>
+<body class="bod1">
+    <header class="Cabecalho">
+        <h1 style=" margin-bottom: 10px;">RAGNA'KARD</h1>
+        <h3 style="color: white;">O JOGO DE CARTAS CACETUDO</h3>
+    </header>
+    <br>
+    <div class="fade"></div>
+    <br>
+    <div class="menu">
+        <div class="menu2">
+            <a href ="https://youtu.be/dQw4w9WgXcQ?si=McMWkk7Kb2hsqMv0" target="_blank">
+                <button class="but">JOGUE AGORA</button>
+            </a>
+            <br>
+            <a href ="Ragnadex.html">
+                <button class ="but">RAGNADEX</button>
+            </a>
+            <br>
+            <a href="RAGNAMANUAL REMASTER.pdf" target="_blank">
+                <button class ="but">COMO JOGAR</button>
+            </a>
+            <br>
+            <a href ="https://youtu.be/TpPf9eSO6uQ?si=xQcmvSxvap1iIyYk" target="_blank">
+                <button class="logb">
+                    <img class="logo" src="img/youtube-logo.png">
+                </button></a>
+            <a href ="https://tiermaker.com/create/ragnakaaaaard-cartas-15972193" target="_blank">
+                <button class="logb">
+                    <img class="logo" src="img/tiermaker-icon.png">
+            </button></a>
+        </div>
+    </div>
+    <div class="divn">
+        <img class ="narebo" src="img/narebo2.png">
+        <button onclick="playAudio()">sniff</button>
+    </div>
+    <div class="divm">
+        <img class ="mokozausko" src="img/mokozausko.png">
+        <button onclick="playAudio2()">wawa</button>
+    </div>
+</body>
+</html>
