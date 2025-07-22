@@ -108,7 +108,7 @@ h1 {
 }
 .logb {
     width: 80px;
-    margin: 50px 50px 0;
+    margin: 25px 25px 0;
     height: 80px;
     background: transparent;
     border: none;
@@ -202,5 +202,31 @@ h1 {
     transition: all 0.4s;
 }
 .menu4 button:hover {
+    transform: scale(1.2);
+}
+
+.fundo {
+    background-color:#e1cddb;
+}
+
+.fundo_i {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    height: 100vh;            /* Full height of the viewport */
+}
+
+.iconi {
+    transition: all 0.4s;
+}
+.iconbut {
+    margin: 25px 25px 0;
+    height: 80px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.iconbut :hover {
     transform: scale(1.2);
 }
